@@ -11,7 +11,17 @@
 #include <signal.h> 
 
 
-int main (int argc, char* argv[] ) {
+int main(int argc, char* argv[])
+{
 
 	
+}
+
+
+/***********************************/
+/****  Escalonador Round-Robin *****/
+/***********************************/
+void executeRoundRobin()
+{
+
 }
