@@ -5,7 +5,7 @@
  */
 struct process
 {
- 	int		pid;	/* Identificacao do processo*/
+ 	int 	pid;	/* Identificacao do processo*/
  	char *	name;	/* Nome do processo */
  	int		param;	/* Parametro generico. */
  	int		done;	/* Representa um boolean */
@@ -96,7 +96,7 @@ void executeRoundRobin()
 			//	Verifica se o processo em questao
 			//	ja teve sua execucao finalizada.
 			//	Se ainda nao terminou:
-			if(proc->terminated == 0)
+			if(proc->done == 0)
 			{
 				int status;
 				int wpid = waitpid(proc->pid, &status, WNOHANG);
@@ -114,12 +114,12 @@ void executeRoundRobin()
 
 				//Verifica se o processo atual, ja teve sua
 				//execucao finalizada.
-				if(wpid && !(proc->terminated) && WIFEXITED(status) && (WEXITSTATUS(status) == 0))
+				if(wpid && !(proc->done) && WIFEXITED(status) && (WEXITSTATUS(status) == 0))
 				{
 					printf("Processo %d, de nome: %s e pid: %d\n finalizado com sucesso!", index, proc->name, proc->pid);
 
 					//Salva a informacao de que o processo ja terminou.
-					proc->terminated = 1;
+					proc->done = 1;
 
 					//Elimina o processo
 					kill(proc->pid, SIGKILL);

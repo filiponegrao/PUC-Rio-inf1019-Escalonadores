@@ -9,8 +9,8 @@
 #include <fcntl.h>
 #include <signal.h> 
 
-#define RRDELAY 1
+#define TIMESLICE 1
 
 typedef struct process Process;
 
-void executeRoundRobin(Process * p);
+void executeRoundRobin();
