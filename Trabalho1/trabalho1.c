@@ -1,27 +1,36 @@
+#include "trabalho1.h"
 
-#include <sys/shm.h>
-#include <sys/stat.h>
-#include <sys/wait.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <fcntl.h>
-#include <signal.h> 
+/**
+ * Processo
+ */
+struct process
+{
+ 	int		pid;	/* Identificacao do processo*/
+ 	char *	name;	/* Nome do processo */
+ 	int		param;	/* Parametro generico. */
+ 	int		done;	/* Representa um boolean */
 
+};
 
 int main(int argc, char* argv[])
 {
+	//Testando
+	Process * teste = (Process *)malloc(sizeof(Process));
+	teste->name = "teste";
+	teste->param = 0;
 
-	
+	executeRoundRobin(teste);
+
+	return 0;
 }
 
 
 /***********************************/
-/****  Escalonador Round-Robin *****/
+/**** Escalonador Round-Robin ******/
 /***********************************/
-void executeRoundRobin()
+void executeRoundRobin(Process * p)
 {
-
+	//Testando
+	printf("%s Prioridade: %d\n", p->name, p->param);
 }
+
