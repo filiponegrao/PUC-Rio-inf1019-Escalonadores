@@ -7,7 +7,7 @@ Interacoes:
 
 1 - Trabalho1:
 	Ultima interacao: 18/10/2016
-	Autores: Filipo Negrao e Fernanda Caravalho
+	Autores: Filipo Negrao e Fernanda Carvalho
 
 
 
