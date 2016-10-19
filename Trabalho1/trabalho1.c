@@ -30,28 +30,44 @@ int doneProcesses;
 /***********************************/
 
 
-static void debugProcessVector()
-{
-    int i;
-
-    for(i=0; i<nProcesses; i++)
-    {
-        printf("\nProcesso %d: pid - %d, name - %s, param - %d, done - %d\n", i+1,
-        processes[i]->pid, processes[i]->name, processes[i]->param, processes[i]->done);
-    }
-}
-
 int main(int argc, char* argv[])
 {
-    if( argc < 3 ) // caso nao seja passada a quantidade correta de parametros para a execucao
+	int dispatcherType;
+
+	//	Verifica os parametros recebidos
+    if( argc < 3 )
     {
 		printf("Error parameters\n");
 		return -1;
 	}
 
-    int dispatcherType = atoi(argv[1]);
-    createProcessVector(dispatcherType, argv[2]);
+	dispatcherType = atoi(argv[1]);
+
+	//	Verifica o tipo de escalonador
+    if(dispatcherType < 0 && dispatcherType > 1)
+    {
+    	printf("Escalonamento indefinido\n");
+    	return -1;
+    }
+
+
+	createProcessVector(dispatcherType, argv[2]);
     debugProcessVector();
+
+    switch(dispatcherType)
+    {
+    	case PRIORITY_DISPATCHER:
+    		executePriority();
+    		break;
+
+    	case ROUND_ROBIN_DISPATCHER:
+    		executePriority();
+    		break;
+
+    	default:
+    		printf("Inconsistencia! \n");
+    		return -1;
+    }
     
 	return 0;
 }
@@ -68,11 +84,14 @@ void createProcessVector(int dispatcherType, char* inputFile)
     int priorityValue;
 
     FILE *input = fopen(inputFile, "r");
-	if( input == NULL ){
+
+	if(input == NULL)
+	{
 		printf("Error opening file");
 		exit(1);
 	}
-    //Aloca endereco de memoria para struct
+
+    //	Aloca endereco de memoria para struct
     processes = (Process **) malloc(sizeof(Process *));
 
     while(fscanf(input, "%s %s ", execCommand, program) == 2)
@@ -104,6 +123,7 @@ void createProcessVector(int dispatcherType, char* inputFile)
 
         i++;
     }
+
     fclose(input);
     nProcesses = i;
 }
@@ -343,4 +363,16 @@ Process* pickProcessByPriority(Process* lastProcess)
 	}
 
 	return temp;
+}
+
+
+static void debugProcessVector()
+{
+    int i;
+
+    for(i=0; i<nProcesses; i++)
+    {
+        printf("\nProcesso %d: pid - %d, name - %s, param - %d, done - %d\n", i+1,
+        processes[i]->pid, processes[i]->name, processes[i]->param, processes[i]->done);
+    }
 }

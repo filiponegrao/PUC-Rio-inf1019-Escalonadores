@@ -6,9 +6,10 @@ int main(int argc, char const *argv[])
 	
 	int i = 0;
 
-	for (int i = 0; i < 10; ++i)
+	while(i < 8)
 	{
 		sleep(1);
+		i++;
 	}
 
 	return 0;
