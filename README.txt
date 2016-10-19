@@ -11,4 +11,5 @@ Interacoes:
 
 
 
+Mais informacoes acesse: http://www.mynechat.com
 /*************************************************/
