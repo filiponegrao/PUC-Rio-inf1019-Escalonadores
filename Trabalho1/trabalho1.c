@@ -62,7 +62,7 @@ int main(int argc, char* argv[])
     		break;
 
     	case ROUND_ROBIN_DISPATCHER:
-    		executePriority();
+    		executeRoundRobin();
     		break;
 
     	default:
