@@ -392,8 +392,6 @@ void debugProcessVector()
 {
     int i;
 
-    printf("Processos encontrados: \n");
-
     for(i=0; i<nProcesses; i++)
     {
         printf("\nProcesso %d: pid - %d, name - %s, param - %d, done - %d\n", i+1,
