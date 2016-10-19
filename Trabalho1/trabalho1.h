@@ -7,13 +7,16 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <fcntl.h>
-#include <signal.h> 
+#include <signal.h>
 
 #define TIMESLICE 1
 #define PRIOMIN 7
 #define PRIOMAX 1
+#define PRIORITY_DISPATCHER 1
+#define ROUND_ROBIN_DISPATCHER 2
 
 typedef struct process Process;
 
+void createProcessVector(int dispatcherType, char* inputFile);
 void executeRoundRobin();
 Process* pickProcessByPriority(Process* lastProcess);

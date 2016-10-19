@@ -20,7 +20,7 @@ struct process
 Process ** processes;
 
 /* Numero de processos */
-int nProcessess;
+int nProcesses;
 
 /* Numero de processos finalizados*/
 int doneProcesses;
@@ -30,17 +30,83 @@ int doneProcesses;
 /***********************************/
 
 
+static void debugProcessVector()
+{
+    int i;
+
+    for(i=0; i<nProcesses; i++)
+    {
+        printf("\nProcesso %d: pid - %d, name - %s, param - %d, done - %d\n", i+1,
+        processes[i]->pid, processes[i]->name, processes[i]->param, processes[i]->done);
+    }
+}
+
 int main(int argc, char* argv[])
 {
-	//Testando
-	Process * teste = (Process *)malloc(sizeof(Process));
-	teste->name = "teste";
-	teste->param = 0;
+    if( argc < 3 ) // caso nao seja passada a quantidade correta de parametros para a execucao
+    {
+		printf("Error parameters\n");
+		return -1;
+	}
 
-
+    int dispatcherType = atoi(argv[1]);
+    createProcessVector(dispatcherType, argv[2]);
+    debugProcessVector();
+    
 	return 0;
 }
 
+/***********************************/
+/**** Cria vetor de processos ******/
+/***********************************/
+void createProcessVector(int dispatcherType, char* inputFile)
+{
+    int i = 0;
+	char execCommand[4];
+	char program[50];
+	char priorityLabel[11];
+    int priorityValue;
+
+    FILE *input = fopen(inputFile, "r");
+	if( input == NULL ){
+		printf("Error opening file");
+		exit(1);
+	}
+    //Aloca endereco de memoria para struct
+    processes = (Process **) malloc(sizeof(Process *));
+
+    while(fscanf(input, "%s %s ", execCommand, program) == 2)
+    {
+        if(dispatcherType == PRIORITY_DISPATCHER) //le prioridade
+        {
+            fscanf(input, "%s %d", priorityLabel, &priorityValue);
+        }
+        else //nao tem prioridade
+        {
+            priorityValue = 0;
+        }
+
+        //Aloca struct atual
+        Process* currentProcess = (Process*) malloc(sizeof(Process));
+
+        //atribui valores
+        currentProcess->pid = 0;
+        currentProcess->name = (char*) malloc(sizeof(char) * strlen(program));
+        strcpy(currentProcess->name, program);
+        currentProcess->param = priorityValue;
+        currentProcess->done = 0;
+
+        //Aloca mais um espaco no array
+        processes = (Process **) realloc(processes, sizeof(Process *)*(i+1));
+
+        //E aponta
+        processes[i] = currentProcess;
+
+        i++;
+    }
+    fclose(input);
+    nProcesses = i;
+}
 
 /***********************************/
 /**** Escalonador Round-Robin ******/
@@ -52,14 +118,14 @@ void executeRoundRobin()
 	Process * proc;
 
 	//	Executa at'e que todos os processos tenham terminado
-	while(doneProcesses < nProcessess)
+	while(doneProcesses < nProcesses)
 	{
 		//	Como o i 'e incrementado ate que todos os
 		//	processos tenham sido executados por completo,
 		//	ele pode assumir um valor que tende a infinito.
 		//	Entao devemos pegar apenas um index dentro do dominio
 		//	(de 0 ate nProcessess).
-		index = i % nProcessess;
+		index = i % nProcesses;
 
 		//	Recuperamos um processo
 		proc = processes[index];
@@ -107,7 +173,7 @@ void executeRoundRobin()
 
 				//Executa o processo por um determinado tempo.
 				printf("Executando processo de nome: %s e pid: %d\n", proc->name, proc->pid);
-				kill(proc->pid, SIGCONT);	
+				kill(proc->pid, SIGCONT);
 
 				//Timeslice
 				sleep(TIMESLICE);
@@ -131,11 +197,11 @@ void executeRoundRobin()
 					//Incrementa o contador de processos finalizados.
 					doneProcesses += 1;
 				}
-			}	
+			}
 		}
 		//Incrementa o controlador de processos
 		//Proximos processos
-		i++;   
+		i++;
 	}
 }
 
@@ -152,8 +218,8 @@ void executePriority()
 	Process * proc;
 
 //	Executa at'e que todos os processos tenham terminado
-	while(doneProcesses < nProcessess)
-	{		
+	while(doneProcesses < nProcesses)
+	{
 		//Pega o proximo processo da lista por prioridade
 		proc = pickProcessByPriority(proc);
 
@@ -172,10 +238,10 @@ void executePriority()
 				//	Interrompe o processo
 				printf("Interrompendo processo de nome: %s e pid: %d\n", proc->name, proc->pid);
 				kill(proc->pid, SIGSTOP);
-				
+
 				//	Apos ter sido executado uma vez, o processo
 				// 	tem sua prioridade reduziada (aumentada).
-				if(proc->param < PRIOMIN) 
+				if(proc->param < PRIOMIN)
 				{
 					proc->param = proc->param + 1;
 				}
@@ -214,7 +280,7 @@ void executePriority()
 
 				//	Reduz a prioridade do processo apos
 				//	ser executado mais uma vez.
-				if(proc->param < PRIOMIN) 
+				if(proc->param < PRIOMIN)
 				{
 					proc->param = proc->param + 1;
 				}
@@ -233,7 +299,7 @@ void executePriority()
 					//	Incrementa o numero de processos finalizados.
 					doneProcesses++;
 				}
-			}	
+			}
 		}
 		//Incrementa o contador
 		i++;
@@ -251,7 +317,7 @@ Process* pickProcessByPriority(Process* lastProcess)
 	//	Inicializa com o primeiro processo
 	Process* temp = processes[0];
 
-	for(i=0; i < nProcessess; i++)
+	for(i=0; i < nProcesses; i++)
 	{
 		//	Se o processo em questao ja esta finalizado
 		//	troca o processo.

@@ -1,0 +1,3 @@
+exec progteste1
+exec progteste2
+exec progteste3

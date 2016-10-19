@@ -1,0 +1,3 @@
+exec progteste1 prioridade= 2
+exec progteste2 prioridade= 1
+exec progteste3 prioridade= 7
