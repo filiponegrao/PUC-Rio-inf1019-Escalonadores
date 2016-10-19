@@ -53,6 +53,7 @@ int main(int argc, char* argv[])
 
 	createProcessVector(dispatcherType, argv[2]);
     debugProcessVector();
+    redirectOutput();
 
     switch(dispatcherType)
     {
@@ -68,7 +69,7 @@ int main(int argc, char* argv[])
     		printf("Inconsistencia! \n");
     		return -1;
     }
-    
+
 	return 0;
 }
 
@@ -126,6 +127,27 @@ void createProcessVector(int dispatcherType, char* inputFile)
 
     fclose(input);
     nProcesses = i;
+}
+
+
+/***********************************/
+/****** Redirecionar Saida  ********/
+/***********************************/
+void redirectOutput()
+{
+    int fd2, output;
+
+    if((fd2 = open("output.txt", O_RDWR|O_CREAT, 0666)) == -1)
+    {
+        perror("Error open()");
+		return;
+    }
+
+    if((output = dup2(fd2,1)) == -1) //duplica stdout
+    {
+        perror("Error open()");
+		return;
+    }
 }
 
 /***********************************/
@@ -366,7 +388,7 @@ Process* pickProcessByPriority(Process* lastProcess)
 }
 
 
-static void debugProcessVector()
+void debugProcessVector()
 {
     int i;
 

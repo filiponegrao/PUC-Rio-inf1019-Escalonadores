@@ -20,9 +20,9 @@ typedef struct process Process;
 /* Funcoes auxiliares */
 void createProcessVector(int dispatcherType, char* inputFile);
 Process* pickProcessByPriority(Process* lastProcess);
-static void debugProcessVector();
+void redirectOutput();
+void debugProcessVector();
 
 /* Dispatchers */
 void executeRoundRobin();
 void executePriority();
-
