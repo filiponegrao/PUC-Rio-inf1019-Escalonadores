@@ -1,12 +1,13 @@
 #include <stdio.h>
+#include <unistd.h>
 
-int main(int argc, char const *argv[])
+int main(void)
 {
-	int num;
-
-	printf("Digite um numero:\n");
-	scanf(" %d", &num);
-	printf("Numero: %d!!\n", num);
-
+	int i = 0;
+	while(i < 4)
+    {
+		i++;
+		sleep(1);
+	}
 	return 0;
 }

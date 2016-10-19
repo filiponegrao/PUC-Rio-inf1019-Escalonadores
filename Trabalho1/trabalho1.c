@@ -23,7 +23,7 @@ Process ** processes;
 int nProcesses;
 
 /* Numero de processos finalizados*/
-int doneProcesses;
+int doneProcesses = 0;
 
 /***********************************/
 /** Fim das variaveis de controle **/
