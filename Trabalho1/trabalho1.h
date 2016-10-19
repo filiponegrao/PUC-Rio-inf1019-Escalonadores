@@ -10,7 +10,10 @@
 #include <signal.h> 
 
 #define TIMESLICE 1
+#define PRIOMIN 7
+#define PRIOMAX 1
 
 typedef struct process Process;
 
 void executeRoundRobin();
+Process* pickProcessByPriority(Process* lastProcess);
