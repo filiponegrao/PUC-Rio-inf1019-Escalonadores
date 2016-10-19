@@ -1,5 +1,9 @@
 /*************************************************/
+/**	- Escalonadores (Prioridade e Circular)	**/
+/**	- Interpretador de comandos		**/
+/**						**/
 /**	INF1019 - Sistemas de Computacao    	**/
+/**						**/
 /*************************************************/
 
 Autores:
