@@ -44,7 +44,7 @@ int main(int argc, char* argv[])
 	dispatcherType = atoi(argv[1]);
 
 	//	Verifica o tipo de escalonador
-    if(dispatcherType < 0 && dispatcherType > 1)
+    if(dispatcherType < 1 || dispatcherType > 2)
     {
     	printf("Escalonamento indefinido\n");
     	return -1;
@@ -313,7 +313,7 @@ void executePriority()
 				kill(proc->pid, SIGCONT);
 
 				//	Timeslice
-				sleep(1);
+				sleep(TIMESLICE);
 
 				//	Interrompe a execucao do programa.
 				printf("<< Interrompendo processo de nome: %s e pid: %d por prioridade\n\n", proc->name, proc->pid);
