@@ -35,4 +35,12 @@ Rodando o escalonador:
 abra seu terminal, va ate a pasta onde se encontram
 os arquivos e digite ./<trab> <ESCALONADOR> <entradaEscalonador.txt>
 
+OBS:
+	Se alguma mudanca for efetuada nos codigos fontes
+e for necessario compilar o programa novamente, abra seu 
+terminal e execute o comando: bash build.sh. O arquivo 
+build.sh esta presente na mesma pasta
+
 Mais informacoes acesse: www.mynechat.com
+
+/**********************************************/
