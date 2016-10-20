@@ -1,275 +1,305 @@
-Executando processo de nome: processo3 e pid: 0
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo1 e pid: 0
-Interrompendo processo de nome: processo1 e pid: 2888
-Executando processo de nome: processo2 e pid: 0
-Interrompendo processo de nome: processo2 e pid: 2889
-Executando processo de nome: processo1 e pid: 2888
-Interrompendo processo de nome: processo1 e pid: 2888
-Executando processo de nome: processo2 e pid: 2889
-Interrompendo processo de nome: processo2 e pid: 2889
-Executando processo de nome: processo1 e pid: 2888
-Interrompendo processo de nome: processo1 e pid: 2888
-Executando processo de nome: processo2 e pid: 2889
-Interrompendo processo de nome: processo2 e pid: 2889
-Executando processo de nome: processo1 e pid: 2888
-Interrompendo processo de nome: processo1 e pid: 2888
-Executando processo de nome: processo2 e pid: 2889
-Interrompendo processo de nome: processo2 e pid: 2889
-Executando processo de nome: processo1 e pid: 2888
-Interrompendo processo de nome: processo1 e pid: 2888
-Executando processo de nome: processo2 e pid: 2889
-Interrompendo processo de nome: processo2 e pid: 2889
-Executando processo de nome: processo1 e pid: 2888
-Interrompendo processo de nome: processo1 e pid: 2888
-Executando processo de nome: processo2 e pid: 2889
-Interrompendo processo de nome: processo2 e pid: 2889
-Executando processo de nome: processo1 e pid: 2888
-Interrompendo processo de nome: processo1 e pid: 2888
-Executando processo de nome: processo2 e pid: 2889
-Interrompendo processo de nome: processo2 e pid: 2889
-Executando processo de nome: processo1 e pid: 2888
-Interrompendo processo de nome: processo1 e pid: 2888
-Processo de nome: processo1 e pid: 2888 Finalizado com sucesso! 
-Executando processo de nome: processo2 e pid: 2889
-Interrompendo processo de nome: processo2 e pid: 2889
-Processo de nome: processo2 e pid: 2889 Finalizado com sucesso! 
-Executando processo de nome: processo3 e pid: 2887
+>> Executando processo de nome: processo3 e pid: 0
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 0 
+|| Processo de nome: processo2 e pid: 0 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 0
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 0 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo2 e pid: 0
+<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 4990
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo2 e pid: 4991
+<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 4990
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo2 e pid: 4991
+<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 4990
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo2 e pid: 4991
+<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 4990
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo2 e pid: 4991
+<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 4990
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo2 e pid: 4991
+<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 4990
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo2 e pid: 4991
+<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 4990
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo2 e pid: 4991
+<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 4990
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo2 e pid: 4991
+<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 4990
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo2 e pid: 4991
+<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+-- Processo de nome: processo2 e pid: 4991 Finalizado com sucesso! 
+|| Processos finalizados:
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 4990
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
 0 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo1 e pid: 4990
+<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+-- Processo de nome: processo1 e pid: 4990 Finalizado com sucesso! 
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
 1 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
 2 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
 3 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
 4 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
 5 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
 6 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
 7 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
 8 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
 9 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 2887
-Executando processo de nome: processo3 e pid: 2887
-Interrompendo processo de nome: processo3 e pid: 2887
-Processo de nome: processo3 e pid: 2887 Finalizado com sucesso! 
- 4316
-Executando processo de nome: processo3 e pid: 4316
-Interrompendo processo de nome: processo3 e pid: 4316
-Executando processo de nome: processo3 e pid: 4316
-8 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 4316
-Executando processo de nome: processo3 e pid: 4316
-Interrompendo processo de nome: processo3 e pid: 4316
-Executando processo de nome: processo3 e pid: 4316
-9 - Hello world!
-Interrompendo processo de nome: processo3 e pid: 4316
-Executando processo de nome: processo3 e pid: 4316
-Interrompendo processo de nome: processo3 e pid: 4316
-Processo de nome: processo3 e pid: 4316 Finalizado com sucesso! 
-me: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
-Interrompendo processo de nome: processo3 e pid: 4028
-Executando processo de nome: processo3 e pid: 4028
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 4989 
+>> Executando processo de nome: processo3 e pid: 4989
+<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+-- Processo de nome: processo3 e pid: 4989 Finalizado com sucesso! 
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo3 e pid: 4989 
+|| Todos os processos foram finalizados
+
+
 Interrompendo processo de nome: processo3 e pid: 4028
 Executando processo de nome: processo3 e pid: 4028
 Interrompendo processo de nome: processo3 e pid: 4028

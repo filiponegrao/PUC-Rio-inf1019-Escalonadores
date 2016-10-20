@@ -22,6 +22,8 @@ void createProcessVector(int dispatcherType, char* inputFile);
 Process* pickProcessByPriority(Process* lastProcess);
 void redirectOutput();
 void debugProcessVector();
+void debugDoneProcesses();
+void debugReadyProcesses();
 
 /* Dispatchers */
 void executeRoundRobin();
