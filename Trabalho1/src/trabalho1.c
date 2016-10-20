@@ -427,7 +427,7 @@ void debugReadyProcesses()
     int i;
     if(doneProcesses != nProcesses)
     {
-        printf("|| Processos na fila para execucao:\n");
+        printf("|| Processos prontos para execucao:\n");
         for(i=0; i<nProcesses; i++)
         {
             if(processes[i]->done == 0)
@@ -440,4 +440,5 @@ void debugReadyProcesses()
     {
         printf("|| Todos os processos foram finalizados\n\n");
     }
+    printf("\n");
 }

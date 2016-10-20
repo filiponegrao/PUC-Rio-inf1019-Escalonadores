@@ -1,0 +1,122 @@
+INF1019 SISTEMAS DE COMPUTAÇÃO
+TRABALHO 1
+
+Alunos:	Fernanda Carvalho - 1411287
+	Filipo Negrão - 1221846
+
+
+Sobre:
+Feito em linguagem C, implementa um interpretador de comandos e um escalonador de programas. O interpretador solicita ao escalonador a execução de programas. O escalonador por sua vez dispara a execução dos programas de acordo com uma determinada política de escalonamento. As políticas que podem ser adotadas são:
+
+- Lista de prioridades (Os processos tem uma prioridade de execução que é um número de 1 a 7 sendo 1 a maior prioridade e 7 a menor)
+
+- Round Robin (Cada processo recebe a mesma fatia de tempo e são executados de forma circular)
+
+Para recompilar os programas execute no terminal:
+  bash build.sh
+
+Para executar via terminal no Linux escreva:
+  ./<nome arquivo executável> <tipo do escalonamento desejado> <entrada.txt>
+
+* O nome do executável é trab1 pois já está definido em build.sh
+
+** Os tipos de escalonamento estão definidos como:
+1 - Prioridade
+2 - Round Robin
+
+*** As respectivas entradas são:
+- entradaPrioridade.txt
+  formato: exec <programa> prioridade= <valor prioridade>
+	   sendo o “valor prioridade” algum número de 1 a 7
+
+- entradaRoundRobin.txt
+  formato: exec <programa>
+
+A saída será salva no arquivo output.txt. Nela encontram-se informações da
+execução como:
+>> Processo que está sendo executado
+<< Processo que está sendo interrompido
+|| Processos finalizados
+|| Processos prontos para execução
+
+------------------------------------
+
+Programas utilizados para teste
+
+Processo1.c  CPU bound
+
+#include <stdio.h>
+#include <unistd.h>
+
+int main(int argc, char const *argv[])
+{
+
+	int i = 0;
+
+	for (int i = 0; i < 10; ++i)
+	{
+		sleep(1);
+	}
+
+	return 0;
+}
+
+---------------------------------------
+
+Processo2.c  CPU bound
+
+#include <stdio.h>
+#include <unistd.h>
+
+int main(int argc, char const *argv[])
+{
+
+	int i = 0;
+
+	while(i < 8)
+	{
+		sleep(1);
+		i++;
+	}
+
+	return 0;
+}
+
+---------------------------------------
+
+Processo3.c  I/O bound
+
+#include <stdio.h>
+#include <unistd.h>
+
+int main (void)
+{
+    int i;
+    for(i=0;i<10;i++)
+	{
+            sleep(2);
+            printf("%d - Hello world!\n", i);
+            fflush(stdout);
+    };
+    return 0;
+}
+
+
+------------------------------------
+
+Conclusao:
+
+As saídas foram as esperadas.
+Em programas do tipo CPU Bound, na execução por prioridade, por exemplo,
+o escalonador optou corretamente por processos com maior prioridade (menor valor)
+ao invés dos demais.
+Em programas do tipo IO Bound, na execução por prioridade, o obtido foi o
+esperado, onde, os outputs por exemplo, só eram executados após N segundos
+definidos dentro do programa, ou seja, tempo de execução do processo.
+Em processos do tipo CPU Bound e IO Bound, com o escalonador circular
+(Round-Robin), os resultados foram exatamente os esperados. O escalonador
+respeitou a fatia de tempo definida e manteve a ordem de execucao dos processos
+(ordem definida no arquivo de entrada).
+
+Obs: Programas que utilizam o fscanf nao apresentaram 100% de aproveitamento
+pois parecem nao receber corretamente o input esperado.

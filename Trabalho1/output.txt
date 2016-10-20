@@ -1,378 +1,438 @@
 >> Executando processo de nome: processo1 e pid: 0
 
-<< Interrompendo processo de nome: processo1 e pid: 4526 por tempo
+<< Interrompendo processo de nome: processo1 e pid: 6360 por tempo
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
 || Processo de nome: processo2 e pid: 0 
 || Processo de nome: processo3 e pid: 0 
+
 >> Executando processo de nome: processo2 e pid: 0
 
-<< Interrompendo processo de nome: processo2 e pid: 4527 por tempo
+<< Interrompendo processo de nome: processo2 e pid: 6361 por tempo
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
 || Processo de nome: processo3 e pid: 0 
+
 >> Executando processo de nome: processo3 e pid: 0
 
-<< Interrompendo processo de nome: processo3 e pid: 4528 por tempo
+<< Interrompendo processo de nome: processo3 e pid: 6362 por tempo
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo1 e pid: 4526
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
 
-<< Interrompendo processo de nome: processo1 e pid: 4526
+>> Executando processo de nome: processo1 e pid: 6360
 
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo2 e pid: 4527
-
-<< Interrompendo processo de nome: processo2 e pid: 4527
+<< Interrompendo processo de nome: processo1 e pid: 6360
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo2 e pid: 6361
+
+<< Interrompendo processo de nome: processo2 e pid: 6361
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
 
 0 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4528
+<< Interrompendo processo de nome: processo3 e pid: 6362
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo1 e pid: 4526
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
 
-<< Interrompendo processo de nome: processo1 e pid: 4526
+>> Executando processo de nome: processo1 e pid: 6360
 
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo2 e pid: 4527
-
-<< Interrompendo processo de nome: processo2 e pid: 4527
+<< Interrompendo processo de nome: processo1 e pid: 6360
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo2 e pid: 6361
+
+<< Interrompendo processo de nome: processo2 e pid: 6361
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
 
 1 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4528
+<< Interrompendo processo de nome: processo3 e pid: 6362
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo1 e pid: 4526
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
 
-<< Interrompendo processo de nome: processo1 e pid: 4526
+>> Executando processo de nome: processo1 e pid: 6360
 
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo2 e pid: 4527
-
-<< Interrompendo processo de nome: processo2 e pid: 4527
+<< Interrompendo processo de nome: processo1 e pid: 6360
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo2 e pid: 6361
+
+<< Interrompendo processo de nome: processo2 e pid: 6361
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
 
 2 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4528
+<< Interrompendo processo de nome: processo3 e pid: 6362
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo1 e pid: 4526
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
 
-<< Interrompendo processo de nome: processo1 e pid: 4526
+>> Executando processo de nome: processo1 e pid: 6360
 
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo2 e pid: 4527
-
-<< Interrompendo processo de nome: processo2 e pid: 4527
+<< Interrompendo processo de nome: processo1 e pid: 6360
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo2 e pid: 6361
+
+<< Interrompendo processo de nome: processo2 e pid: 6361
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
 
 3 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4528
+<< Interrompendo processo de nome: processo3 e pid: 6362
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo1 e pid: 4526
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
 
-<< Interrompendo processo de nome: processo1 e pid: 4526
+>> Executando processo de nome: processo1 e pid: 6360
 
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo2 e pid: 4527
-
-<< Interrompendo processo de nome: processo2 e pid: 4527
+<< Interrompendo processo de nome: processo1 e pid: 6360
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo2 e pid: 6361
+
+<< Interrompendo processo de nome: processo2 e pid: 6361
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
 
 4 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4528
+<< Interrompendo processo de nome: processo3 e pid: 6362
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo1 e pid: 4526
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
 
-<< Interrompendo processo de nome: processo1 e pid: 4526
+>> Executando processo de nome: processo1 e pid: 6360
 
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo2 e pid: 4527
-
-<< Interrompendo processo de nome: processo2 e pid: 4527
+<< Interrompendo processo de nome: processo1 e pid: 6360
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo2 e pid: 6361
+
+<< Interrompendo processo de nome: processo2 e pid: 6361
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
 
 5 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4528
+<< Interrompendo processo de nome: processo3 e pid: 6362
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo1 e pid: 4526
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
 
-<< Interrompendo processo de nome: processo1 e pid: 4526
+>> Executando processo de nome: processo1 e pid: 6360
 
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo2 e pid: 4527
-
-<< Interrompendo processo de nome: processo2 e pid: 4527
+<< Interrompendo processo de nome: processo1 e pid: 6360
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo2 e pid: 6361
+
+<< Interrompendo processo de nome: processo2 e pid: 6361
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
 
 6 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4528
+<< Interrompendo processo de nome: processo3 e pid: 6362
 
 || Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo1 e pid: 4526
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
 
-<< Interrompendo processo de nome: processo1 e pid: 4526
+>> Executando processo de nome: processo1 e pid: 6360
 
--- Processo de nome: processo1 e pid: 4526 finalizado com sucesso! 
+<< Interrompendo processo de nome: processo1 e pid: 6360
 
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processos na fila para execucao:
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo2 e pid: 4527
-
-<< Interrompendo processo de nome: processo2 e pid: 4527
-
--- Processo de nome: processo2 e pid: 4527 finalizado com sucesso! 
+-- Processo de nome: processo1 e pid: 6360 finalizado com sucesso! 
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
+|| Processo de nome: processo1 e pid: 6360 
+|| Processos prontos para execucao:
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo2 e pid: 6361
+
+<< Interrompendo processo de nome: processo2 e pid: 6361
+
+-- Processo de nome: processo2 e pid: 6361 finalizado com sucesso! 
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
 
 7 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4528
+<< Interrompendo processo de nome: processo3 e pid: 6362
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
+
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
+
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
 
 8 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4528
+<< Interrompendo processo de nome: processo3 e pid: 6362
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
-
-<< Interrompendo processo de nome: processo3 e pid: 4528
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
+
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
+
+<< Interrompendo processo de nome: processo3 e pid: 6362
+
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
 
 9 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4528
+<< Interrompendo processo de nome: processo3 e pid: 6362
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4528 
->> Executando processo de nome: processo3 e pid: 4528
-
-<< Interrompendo processo de nome: processo3 e pid: 4528
-
--- Processo de nome: processo3 e pid: 4528 finalizado com sucesso! 
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4526 
-|| Processo de nome: processo2 e pid: 4527 
-|| Processo de nome: processo3 e pid: 4528 
-|| Todos os processos foram finalizados
-
-esso de nome: processo3 e pid: 4509 
->> Executando processo de nome: processo3 e pid: 4509
-
-<< Interrompendo processo de nome: processo3 e pid: 4509
-
--- Processo de nome: processo3 e pid: 4509 finalizado com sucesso! 
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4507 
-|| Processo de nome: processo2 e pid: 4508 
-|| Processo de nome: processo3 e pid: 4509 
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6362 
+
+>> Executando processo de nome: processo3 e pid: 6362
+
+<< Interrompendo processo de nome: processo3 e pid: 6362
+
+-- Processo de nome: processo3 e pid: 6362 finalizado com sucesso! 
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 6360 
+|| Processo de nome: processo2 e pid: 6361 
+|| Processo de nome: processo3 e pid: 6362 
 || Todos os processos foram finalizados
 
 
-|| Processo de nome: processo2 e pid: 4465 
-|| Processo de nome: processo3 e pid: 4466 
+o3 e pid: 6311 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 6308 
+|| Processo de nome: processo2 e pid: 6307 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6311 
+
+>> Executando processo de nome: processo3 e pid: 6311
+
+<< Interrompendo processo de nome: processo3 e pid: 6311 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 6308 
+|| Processo de nome: processo2 e pid: 6307 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6311 
+
+>> Executando processo de nome: processo3 e pid: 6311
+
+8 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 6311 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 6308 
+|| Processo de nome: processo2 e pid: 6307 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6311 
+
+>> Executando processo de nome: processo3 e pid: 6311
+
+<< Interrompendo processo de nome: processo3 e pid: 6311 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 6308 
+|| Processo de nome: processo2 e pid: 6307 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6311 
+
+>> Executando processo de nome: processo3 e pid: 6311
+
+9 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 6311 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 6308 
+|| Processo de nome: processo2 e pid: 6307 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 6311 
+
+>> Executando processo de nome: processo3 e pid: 6311
+
+<< Interrompendo processo de nome: processo3 e pid: 6311 por prioridade
+
+-- Processo de nome: processo3 e pid: 6311 Finalizado com sucesso! 
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 6308 
+|| Processo de nome: processo2 e pid: 6307 
+|| Processo de nome: processo3 e pid: 6311 
 || Todos os processos foram finalizados
 
-na fila para execucao:
-|| Processo de nome: processo3 e pid: 3777 
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 3775 
-|| Processo de nome: processo2 e pid: 3776 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 3777 
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 3775 
-|| Processo de nome: processo2 e pid: 3776 
-|| Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 3777 
->> Executando processo de nome: processo3 e pid: 3777
-
-<< Interrompendo processo de nome: processo3 e pid: 3777
-
--- Processo de nome: processo3 e pid: 3777 finalizado com sucesso! 
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 3775 
-|| Processo de nome: processo2 e pid: 3776 
-|| Processo de nome: processo3 e pid: 3777 
-|| Todos os processos foram finalizados
 
