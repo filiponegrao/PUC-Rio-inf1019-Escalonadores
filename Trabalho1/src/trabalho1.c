@@ -137,7 +137,7 @@ void redirectOutput()
 {
     int fd2, output;
 
-    if((fd2 = open("output.txt", O_RDWR|O_CREAT, 0666)) == -1)
+    if((fd2 = open("output.txt", O_RDWR|O_CREAT, O_TRUNC, 0666)) == -1)
     {
         perror("Error open()");
 		return;
@@ -392,6 +392,8 @@ Process* pickProcessByPriority(Process* lastProcess)
 void debugProcessVector()
 {
     int i;
+
+    printf("Processos encontrados:\n");
 
     for(i=0; i<nProcesses; i++)
     {
