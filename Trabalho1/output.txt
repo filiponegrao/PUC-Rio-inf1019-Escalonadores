@@ -1,409 +1,411 @@
 >> Executando processo de nome: processo2 e pid: 0
 
-<< Interrompendo processo de nome: processo2 e pid: 3628 por prioridade
+<< Interrompendo processo de nome: processo2 e pid: 3385 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
 || Processo de nome: processo1 e pid: 0 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
 >> Executando processo de nome: processo1 e pid: 0
 
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo2 e pid: 3628
+>> Executando processo de nome: processo2 e pid: 3385
 
-<< Interrompendo processo de nome: processo2 e pid: 3628 por prioridade
+<< Interrompendo processo de nome: processo2 e pid: 3385 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo1 e pid: 3629
+>> Executando processo de nome: processo1 e pid: 3386
 
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo2 e pid: 3628
+>> Executando processo de nome: processo2 e pid: 3385
 
-<< Interrompendo processo de nome: processo2 e pid: 3628 por prioridade
+<< Interrompendo processo de nome: processo2 e pid: 3385 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo1 e pid: 3629
+>> Executando processo de nome: processo1 e pid: 3386
 
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo2 e pid: 3628
+>> Executando processo de nome: processo2 e pid: 3385
 
-<< Interrompendo processo de nome: processo2 e pid: 3628 por prioridade
+<< Interrompendo processo de nome: processo2 e pid: 3385 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo1 e pid: 3629
+>> Executando processo de nome: processo1 e pid: 3386
 
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo2 e pid: 3628
+>> Executando processo de nome: processo2 e pid: 3385
 
-<< Interrompendo processo de nome: processo2 e pid: 3628 por prioridade
+<< Interrompendo processo de nome: processo2 e pid: 3385 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo1 e pid: 3629
+>> Executando processo de nome: processo1 e pid: 3386
 
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo2 e pid: 3628
+>> Executando processo de nome: processo2 e pid: 3385
 
-<< Interrompendo processo de nome: processo2 e pid: 3628 por prioridade
+<< Interrompendo processo de nome: processo2 e pid: 3385 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo1 e pid: 3629
+>> Executando processo de nome: processo1 e pid: 3386
 
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo2 e pid: 3628
+>> Executando processo de nome: processo2 e pid: 3385
 
-<< Interrompendo processo de nome: processo2 e pid: 3628 por prioridade
+<< Interrompendo processo de nome: processo2 e pid: 3385 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo1 e pid: 3629
+>> Executando processo de nome: processo1 e pid: 3386
 
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo2 e pid: 3628
+>> Executando processo de nome: processo2 e pid: 3385
 
-<< Interrompendo processo de nome: processo2 e pid: 3628 por prioridade
+<< Interrompendo processo de nome: processo2 e pid: 3385 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo1 e pid: 3629
+>> Executando processo de nome: processo1 e pid: 3386
 
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
 
 || Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo2 e pid: 3628
+>> Executando processo de nome: processo2 e pid: 3385
 
-<< Interrompendo processo de nome: processo2 e pid: 3628 por prioridade
+<< Interrompendo processo de nome: processo2 e pid: 3385 por prioridade
 
-|| Ainda nao existem processos finalizados
-|| Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
-|| Processo de nome: processo3 e pid: 0 
-
->> Executando processo de nome: processo1 e pid: 3629
-
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
-
-|| Ainda nao existem processos finalizados
-|| Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
-|| Processo de nome: processo3 e pid: 0 
-
->> Executando processo de nome: processo2 e pid: 3628
-
-<< Interrompendo processo de nome: processo2 e pid: 3628 por prioridade
-
--- Processo de nome: processo2 e pid: 3628 Finalizado com sucesso! 
+-- Processo de nome: processo2 e pid: 3385 Finalizado com sucesso! 
 
 || Processos finalizados:
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
+|| Processo de nome: processo1 e pid: 3386 
 || Processo de nome: processo3 e pid: 0 
 
->> Executando processo de nome: processo1 e pid: 3629
+>> Executando processo de nome: processo1 e pid: 3386
 
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
+|| Processo de nome: processo1 e pid: 3386 
 || Processo de nome: processo3 e pid: 0 
 
 >> Executando processo de nome: processo3 e pid: 0
 
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo1 e pid: 3629
+>> Executando processo de nome: processo1 e pid: 3386
 
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
 0 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo1 e pid: 3629
+>> Executando processo de nome: processo1 e pid: 3386
 
-<< Interrompendo processo de nome: processo1 e pid: 3629 por prioridade
-
--- Processo de nome: processo1 e pid: 3629 Finalizado com sucesso! 
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
 1 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo1 e pid: 3386
 
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 3386 por prioridade
+
+-- Processo de nome: processo1 e pid: 3386 Finalizado com sucesso! 
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
 2 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
 3 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
 4 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
+
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 3387 
+
+>> Executando processo de nome: processo3 e pid: 3387
 
 5 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
 6 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
 7 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
 8 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
 || Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
+|| Processo de nome: processo3 e pid: 3387 
 
->> Executando processo de nome: processo3 e pid: 3638
-
-<< Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 3629 
-|| Processo de nome: processo2 e pid: 3628 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 3638 
-
->> Executando processo de nome: processo3 e pid: 3638
+>> Executando processo de nome: processo3 e pid: 3387
 
 9 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 3387 
+
+>> Executando processo de nome: processo3 e pid: 3387
+
+<< Interrompendo processo de nome: processo3 e pid: 3387 por prioridade
+
+-- Processo de nome: processo3 e pid: 3387 Finalizado com sucesso! 
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 3386 
+|| Processo de nome: processo2 e pid: 3385 
+|| Processo de nome: processo3 e pid: 3387 
+|| Todos os processos foram finalizados
+
+
+o world!
 << Interrompendo processo de nome: processo3 e pid: 3638 por prioridade
 
 || Processos finalizados:
