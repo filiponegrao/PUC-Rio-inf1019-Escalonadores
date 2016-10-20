@@ -1,248 +1,265 @@
->> Executando processo de nome: processo3 e pid: 0
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 0 
-|| Processo de nome: processo2 e pid: 0 
-|| Processo de nome: processo3 e pid: 4989 
 >> Executando processo de nome: processo1 e pid: 0
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+<< Interrompendo processo de nome: processo1 e pid: 5104 por tempo
+
 || Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
+|| Processo de nome: processo1 e pid: 5104 
 || Processo de nome: processo2 e pid: 0 
-|| Processo de nome: processo3 e pid: 4989 
+|| Processo de nome: processo3 e pid: 0 
 >> Executando processo de nome: processo2 e pid: 0
-<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+<< Interrompendo processo de nome: processo2 e pid: 5105 por tempo
+
 || Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo1 e pid: 4990
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 0 
+>> Executando processo de nome: processo3 e pid: 0
+<< Interrompendo processo de nome: processo3 e pid: 5106 por tempo
+
 || Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo2 e pid: 4991
-<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo1 e pid: 5104
+<< Interrompendo processo de nome: processo1 e pid: 5104
 || Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo1 e pid: 4990
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo2 e pid: 5105
+<< Interrompendo processo de nome: processo2 e pid: 5105
 || Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo2 e pid: 4991
-<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo1 e pid: 4990
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo2 e pid: 4991
-<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo1 e pid: 4990
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo2 e pid: 4991
-<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo1 e pid: 4990
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo2 e pid: 4991
-<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo1 e pid: 4990
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo2 e pid: 4991
-<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo1 e pid: 4990
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo2 e pid: 4991
-<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo1 e pid: 4990
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo2 e pid: 4991
-<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo1 e pid: 4990
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
-|| Ainda nao existem processos finalizados
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo2 e pid: 4991
-<< Interrompendo processo de nome: processo2 e pid: 4991 por prioridade
--- Processo de nome: processo2 e pid: 4991 Finalizado com sucesso! 
-|| Processos finalizados:
-|| Processo de nome: processo2 e pid: 4991 
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo1 e pid: 4990
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
-|| Processos finalizados:
-|| Processo de nome: processo2 e pid: 4991 
-|| Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo3 e pid: 4989
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo3 e pid: 5106
 0 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
-|| Processos finalizados:
-|| Processo de nome: processo2 e pid: 4991 
+<< Interrompendo processo de nome: processo3 e pid: 5106
+|| Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo1 e pid: 4990
-<< Interrompendo processo de nome: processo1 e pid: 4990 por prioridade
--- Processo de nome: processo1 e pid: 4990 Finalizado com sucesso! 
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo1 e pid: 5104
+<< Interrompendo processo de nome: processo1 e pid: 5104
+|| Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo3 e pid: 4989
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo2 e pid: 5105
+<< Interrompendo processo de nome: processo2 e pid: 5105
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo3 e pid: 5106
 1 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
+<< Interrompendo processo de nome: processo3 e pid: 5106
+|| Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo3 e pid: 4989
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo1 e pid: 5104
+<< Interrompendo processo de nome: processo1 e pid: 5104
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo2 e pid: 5105
+<< Interrompendo processo de nome: processo2 e pid: 5105
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo3 e pid: 5106
 2 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
+<< Interrompendo processo de nome: processo3 e pid: 5106
+|| Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo3 e pid: 4989
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo1 e pid: 5104
+<< Interrompendo processo de nome: processo1 e pid: 5104
+|| Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo3 e pid: 4989
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo2 e pid: 5105
+<< Interrompendo processo de nome: processo2 e pid: 5105
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo3 e pid: 5106
 3 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
+<< Interrompendo processo de nome: processo3 e pid: 5106
+|| Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo3 e pid: 4989
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo1 e pid: 5104
+<< Interrompendo processo de nome: processo1 e pid: 5104
+|| Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo3 e pid: 4989
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo2 e pid: 5105
+<< Interrompendo processo de nome: processo2 e pid: 5105
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo3 e pid: 5106
 4 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
+<< Interrompendo processo de nome: processo3 e pid: 5106
+|| Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo3 e pid: 4989
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo1 e pid: 5104
+<< Interrompendo processo de nome: processo1 e pid: 5104
+|| Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo3 e pid: 4989
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo2 e pid: 5105
+<< Interrompendo processo de nome: processo2 e pid: 5105
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo3 e pid: 5106
 5 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
+<< Interrompendo processo de nome: processo3 e pid: 5106
+|| Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo3 e pid: 4989
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo1 e pid: 5104
+<< Interrompendo processo de nome: processo1 e pid: 5104
+|| Ainda nao existem processos finalizados
 || Processos na fila para execucao:
-|| Processo de nome: processo3 e pid: 4989 
->> Executando processo de nome: processo3 e pid: 4989
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo2 e pid: 5105
+<< Interrompendo processo de nome: processo2 e pid: 5105
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo3 e pid: 5106
 6 - Hello world!
-<< Interrompendo processo de nome: processo3 e pid: 4989 por prioridade
+<< Interrompendo processo de nome: processo3 e pid: 5106
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo1 e pid: 5104
+<< Interrompendo processo de nome: processo1 e pid: 5104
+|| Ainda nao existem processos finalizados
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo2 e pid: 5105
+<< Interrompendo processo de nome: processo2 e pid: 5105
+-- Processo de nome: processo2 e pid: 5105 finalizado com sucesso! 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 4990 
-|| Processo de nome: processo2 e pid: 4991 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo3 e pid: 5106
+7 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 5106
+|| Processos finalizados:
+|| Processo de nome: processo2 e pid: 5105 
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo1 e pid: 5104
+<< Interrompendo processo de nome: processo1 e pid: 5104
+|| Processos finalizados:
+|| Processo de nome: processo2 e pid: 5105 
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo3 e pid: 5106 
+|| Processos finalizados:
+|| Processo de nome: processo2 e pid: 5105 
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo3 e pid: 5106
+8 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 5106
+|| Processos finalizados:
+|| Processo de nome: processo2 e pid: 5105 
+|| Processos na fila para execucao:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo1 e pid: 5104
+<< Interrompendo processo de nome: processo1 e pid: 5104
+-- Processo de nome: processo1 e pid: 5104 finalizado com sucesso! 
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 5106 
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo3 e pid: 5106
+9 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 5106
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 5106 
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 5106 
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processos na fila para execucao:
+|| Processo de nome: processo3 e pid: 5106 
+>> Executando processo de nome: processo3 e pid: 5106
+<< Interrompendo processo de nome: processo3 e pid: 5106
+-- Processo de nome: processo3 e pid: 5106 finalizado com sucesso! 
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 5104 
+|| Processo de nome: processo2 e pid: 5105 
+|| Processo de nome: processo3 e pid: 5106 
+|| Todos os processos foram finalizados
+
+rocesso2 e pid: 4991 
 || Processos na fila para execucao:
 || Processo de nome: processo3 e pid: 4989 
 >> Executando processo de nome: processo3 e pid: 4989
