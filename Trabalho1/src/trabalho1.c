@@ -194,7 +194,7 @@ void executeRoundRobin()
 			{
 				//	Processo filho executa o programa em
 				//	questao sem parametros
-				printf(">> Executando processo de nome: %s e pid: %d\n", proc->name, proc->pid);
+				printf(">> Executando processo de nome: %s e pid: %d\n\n", proc->name, proc->pid);
 				execve(proc->name, NULL, NULL);
 			}
 		//	No caso de ja ter sido inicializado
@@ -214,21 +214,21 @@ void executeRoundRobin()
 				int wpid = waitpid(proc->pid, &status, WNOHANG);
 
 				//Executa o processo por um determinado tempo.
-				printf(">> Executando processo de nome: %s e pid: %d\n", proc->name, proc->pid);
+				printf(">> Executando processo de nome: %s e pid: %d\n\n", proc->name, proc->pid);
 				kill(proc->pid, SIGCONT);
 
 				//Timeslice
 				sleep(TIMESLICE);
 
 				//Interrompe o processo
-				printf("<< Interrompendo processo de nome: %s e pid: %d\n", proc->name, proc->pid);
+				printf("<< Interrompendo processo de nome: %s e pid: %d\n\n", proc->name, proc->pid);
 				kill(proc->pid, SIGSTOP);
 
 				//Verifica se o processo atual, ja teve sua
 				//execucao finalizada.
 				if(wpid && !(proc->done) && WIFEXITED(status) && (WEXITSTATUS(status) == 0))
 				{
-					printf("-- Processo de nome: %s e pid: %d finalizado com sucesso! \n", proc->name, proc->pid);
+					printf("-- Processo de nome: %s e pid: %d finalizado com sucesso! \n\n", proc->name, proc->pid);
 
 					//Salva a informacao de que o processo ja terminou.
 					proc->done = 1;
@@ -277,7 +277,7 @@ void executePriority()
 				sleep(TIMESLICE);
 
 				//	Interrompe o processo
-				printf("<< Interrompendo processo de nome: %s e pid: %d por prioridade\n", proc->name, proc->pid);
+				printf("<< Interrompendo processo de nome: %s e pid: %d por prioridade\n\n", proc->name, proc->pid);
 				kill(proc->pid, SIGSTOP);
 
 				//	Apos ter sido executado uma vez, o processo
@@ -291,7 +291,7 @@ void executePriority()
 			{
 				//	Processo filho executa o programa em
 				//	questao sem parametros no caso.
-				printf(">> Executando processo de nome: %s e pid: %d\n", proc->name, proc->pid);
+				printf(">> Executando processo de nome: %s e pid: %d\n\n", proc->name, proc->pid);
 				execve(proc->name, NULL, NULL);
 			}
 		}
@@ -309,14 +309,14 @@ void executePriority()
 				int wpid = waitpid(proc->pid, &status, WNOHANG);
 
 				//	Retoma a execucao do processo
-				printf(">> Executando processo de nome: %s e pid: %d\n", proc->name, proc->pid);
+				printf(">> Executando processo de nome: %s e pid: %d\n\n", proc->name, proc->pid);
 				kill(proc->pid, SIGCONT);
 
 				//	Timeslice
 				sleep(1);
 
 				//	Interrompe a execucao do programa.
-				printf("<< Interrompendo processo de nome: %s e pid: %d por prioridade\n", proc->name, proc->pid);
+				printf("<< Interrompendo processo de nome: %s e pid: %d por prioridade\n\n", proc->name, proc->pid);
 				kill(proc->pid, SIGSTOP);
 
 				//	Reduz a prioridade do processo apos
@@ -334,7 +334,7 @@ void executePriority()
 					proc->done = 1;
 
 					//	Elimina o processo
-					printf("-- Processo de nome: %s e pid: %d Finalizado com sucesso! \n", proc->name, proc->pid);
+					printf("-- Processo de nome: %s e pid: %d Finalizado com sucesso! \n\n", proc->name, proc->pid);
 					kill(proc->pid, SIGKILL);
 
 					//	Incrementa o numero de processos finalizados.
