@@ -291,7 +291,7 @@ void executePriority()
 			{
 				//	Processo filho executa o programa em
 				//	questao sem parametros no caso.
-				printf(">> Executando processo de nome: %s e pid: %d\n\n", proc->name, proc->pid);
+				printf(">> Executando processo de nome: %s , pid: %d\n\n", proc->name, proc->pid);
 				execve(proc->name, NULL, NULL);
 			}
 		}
@@ -430,7 +430,7 @@ void debugReadyProcesses()
         printf("|| Processos prontos para execucao:\n");
         for(i=0; i<nProcesses; i++)
         {
-            if(processes[i]->done == 0)
+            if(processes[i]->done == 0 && processes[i]->pid != 0)
             {
                 printf("|| Processo de nome: %s e pid: %d \n", processes[i]->name, processes[i]->pid);
             }
