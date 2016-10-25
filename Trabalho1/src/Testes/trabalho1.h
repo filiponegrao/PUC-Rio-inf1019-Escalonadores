@@ -25,7 +25,6 @@ typedef struct process Process;
 void createProcessVector(int dispatcherType, char* inputFile);
 Process* pickProcessByPriority(Process* lastProcess);
 void redirectOutput(int type);
-
 void debugProcessVector();
 void debugDoneProcesses();
 void debugReadyProcesses();
@@ -40,8 +39,4 @@ void initWaitingMemory();
 void observeWaitingProcesses();
 void setProcessWaiting(int pid);
 void removeProcessWaiting(int pid);
-
-
-void changePriorities(int currentpid);
-
 

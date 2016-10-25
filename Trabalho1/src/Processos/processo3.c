@@ -25,7 +25,7 @@ int main (void)
 		}
 	}
 
-	scanf("%s", nome);
+	sleep(4);
 
 	waitingslots = (int *) shmat(segmento, NULL, 0);
 
@@ -38,7 +38,7 @@ int main (void)
 		}
 	}
 
-	printf("Ola %s!! \n", nome);
+	printf("Ola mundo!!! \n");
 
     return 0;
 }

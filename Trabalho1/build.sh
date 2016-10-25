@@ -1,7 +1,7 @@
 cd src
-gcc trabalho1.c trabalho1.h -g
-cp trabalho1 ../trab1
-rm trabalho1
+gcc trabalho1.c trabalho1.h -o trab1
+cp trab1 ../trab1
+rm trab1
 
 cd Processos
 

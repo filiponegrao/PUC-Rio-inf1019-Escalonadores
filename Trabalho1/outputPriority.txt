@@ -4,545 +4,279 @@ Output Redirecionado com sucesso para outputPriority.txt
 << Interrompendo processo de nome: processo2 e prioridade 1 
 
 || Ainda nao existem processos finalizados
+
 || Processos prontos para execucao:
-|| Processo de nome: processo2 e pid: 25601 
+|| Processo de nome: processo2 e pid: 29170 
 
 || Processos em espera por IO: 
+|| Nenhum processo 
 
->> Executando processo de nome: processo1 e prioridade 2 
+>> Executando processo de nome: processo1 e prioridade 1 
 
-<< Interrompendo processo de nome: processo1 e prioridade 2 
+<< Interrompendo processo de nome: processo1 e prioridade 1 
 
 || Ainda nao existem processos finalizados
+
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
 
 || Processos em espera por IO: 
+|| Nenhum processo 
 
 >> Executando processo de nome: processo2 e prioridade 2 
 
 << Interrompendo processo de nome: processo2 e prioridade
 
 || Ainda nao existem processos finalizados
+
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
 
 || Processos em espera por IO: 
+|| Nenhum processo 
 
->> Executando processo de nome: processo1 e prioridade 3 
+>> Executando processo de nome: processo1 e prioridade 2 
 
 << Interrompendo processo de nome: processo1 e prioridade
 
 || Ainda nao existem processos finalizados
+
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
 
 || Processos em espera por IO: 
+|| Nenhum processo 
+
+>> Executando processo de nome: processo3 e prioridade 3 
+
+<< Interrompendo processo de nome: processo3 e prioridade 3 
+
+|| Ainda nao existem processos finalizados
+
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
+|| Processo de nome: processo3 e pid: 29177 
+
+|| Processos em espera por IO: 
+|| Nenhum processo 
+
+>> Executando processo de nome: processo2 e prioridade 2 
+
+<< Interrompendo processo de nome: processo2 e prioridade
+
+|| Ainda nao existem processos finalizados
+
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
+
+|| Processos em espera por IO: 
+|| Processo de nome: processo3 e pid: 29177 
+
+>> Executando processo de nome: processo1 e prioridade 2 
+
+<< Interrompendo processo de nome: processo1 e prioridade
+
+|| Ainda nao existem processos finalizados
+
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
+
+|| Processos em espera por IO: 
+|| Processo de nome: processo3 e pid: 29177 
+
+>> Executando processo de nome: processo3 e prioridade 3 
+
+Digite seu nome:
+Ola mundo!!! 
+<< Interrompendo processo de nome: processo3 e prioridade
+
+|| Ainda nao existem processos finalizados
+
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
+
+|| Processos em espera por IO: 
+|| Processo de nome: processo3 e pid: 29177 
+
+>> Executando processo de nome: processo2 e prioridade 2 
+
+<< Interrompendo processo de nome: processo2 e prioridade
+
+|| Ainda nao existem processos finalizados
+
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
+|| Processo de nome: processo3 e pid: 29177 
+
+|| Processos em espera por IO: 
+|| Nenhum processo 
+
+>> Executando processo de nome: processo1 e prioridade 2 
+
+<< Interrompendo processo de nome: processo1 e prioridade
+
+|| Ainda nao existem processos finalizados
+
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
+|| Processo de nome: processo3 e pid: 29177 
+
+|| Processos em espera por IO: 
+|| Nenhum processo 
+
+>> Executando processo de nome: processo3 e prioridade 3 
+
+<< Interrompendo processo de nome: processo3 e prioridade
+
+-- Processo de nome: processo3 Finalizado com sucesso! 
+
+|| Processos finalizados:
+|| Processo de nome: processo3 e pid: 29177 
+
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
+
+|| Processos em espera por IO: 
+|| Nenhum processo 
+
+>> Executando processo de nome: processo2 e prioridade 2 
+
+<< Interrompendo processo de nome: processo2 e prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo3 e pid: 29177 
+
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
+
+|| Processos em espera por IO: 
+|| Nenhum processo 
+
+>> Executando processo de nome: processo1 e prioridade 2 
+
+<< Interrompendo processo de nome: processo1 e prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo3 e pid: 29177 
+
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
+
+|| Processos em espera por IO: 
+|| Nenhum processo 
 
 >> Executando processo de nome: processo2 e prioridade 3 
 
 << Interrompendo processo de nome: processo2 e prioridade
 
-|| Ainda nao existem processos finalizados
+|| Processos finalizados:
+|| Processo de nome: processo3 e pid: 29177 
+
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
 
 || Processos em espera por IO: 
+|| Nenhum processo 
 
->> Executando processo de nome: processo1 e prioridade 4 
+>> Executando processo de nome: processo1 e prioridade 3 
 
 << Interrompendo processo de nome: processo1 e prioridade
 
-|| Ainda nao existem processos finalizados
+|| Processos finalizados:
+|| Processo de nome: processo3 e pid: 29177 
+
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
 
 || Processos em espera por IO: 
+|| Nenhum processo 
 
->> Executando processo de nome: processo2 e prioridade 4 
+|| Processos finalizados:
+|| Processo de nome: processo3 e pid: 29177 
 
-<< Interrompendo processo de nome: processo2 e prioridade
-
-|| Ainda nao existem processos finalizados
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
 
 || Processos em espera por IO: 
+|| Nenhum processo 
 
->> Executando processo de nome: processo1 e prioridade 5 
-
-<< Interrompendo processo de nome: processo1 e prioridade
-
-|| Ainda nao existem processos finalizados
-|| Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo2 e prioridade 5 
-
-<< Interrompendo processo de nome: processo2 e prioridade
-
-|| Ainda nao existem processos finalizados
-|| Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo1 e prioridade 6 
-
-<< Interrompendo processo de nome: processo1 e prioridade
-
-|| Ainda nao existem processos finalizados
-|| Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo2 e prioridade 6 
-
-<< Interrompendo processo de nome: processo2 e prioridade
-
-|| Ainda nao existem processos finalizados
-|| Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo1 e prioridade 7 
-
-<< Interrompendo processo de nome: processo1 e prioridade
-
-|| Ainda nao existem processos finalizados
-|| Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo2 e prioridade 7 
+>> Executando processo de nome: processo2 e prioridade 3 
 
 << Interrompendo processo de nome: processo2 e prioridade
 
 -- Processo de nome: processo2 Finalizado com sucesso! 
 
 || Processos finalizados:
-|| Processo de nome: processo2 e pid: 25601 
+|| Processo de nome: processo2 e pid: 29170 
+|| Processo de nome: processo3 e pid: 29177 
+
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
+|| Processo de nome: processo1 e pid: 29172 
 
 || Processos em espera por IO: 
+|| Nenhum processo 
 
->> Executando processo de nome: processo1 e prioridade 7 
+>> Executando processo de nome: processo1 e prioridade 3 
 
 << Interrompendo processo de nome: processo1 e prioridade
 
 || Processos finalizados:
-|| Processo de nome: processo2 e pid: 25601 
+|| Processo de nome: processo2 e pid: 29170 
+|| Processo de nome: processo3 e pid: 29177 
+
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
+|| Processo de nome: processo1 e pid: 29172 
 
 || Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade 7 
+|| Nenhum processo 
 
 || Processos finalizados:
-|| Processo de nome: processo2 e pid: 25601 
+|| Processo de nome: processo2 e pid: 29170 
+|| Processo de nome: processo3 e pid: 29177 
+
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo3 e pid: 25610 
+|| Processo de nome: processo1 e pid: 29172 
 
 || Processos em espera por IO: 
-
->> Executando processo de nome: processo1 e prioridade 7 
-
-<< Interrompendo processo de nome: processo1 e prioridade
+|| Nenhum processo 
 
 || Processos finalizados:
-|| Processo de nome: processo2 e pid: 25601 
+|| Processo de nome: processo2 e pid: 29170 
+|| Processo de nome: processo3 e pid: 29177 
+
 || Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo3 e pid: 25610 
+|| Processo de nome: processo1 e pid: 29172 
 
 || Processos em espera por IO: 
+|| Nenhum processo 
 
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo1 e prioridade 7 
-
-<< Interrompendo processo de nome: processo1 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo1 e prioridade 7 
+>> Executando processo de nome: processo1 e prioridade 3 
 
 << Interrompendo processo de nome: processo1 e prioridade
 
 -- Processo de nome: processo1 Finalizado com sucesso! 
 
 || Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-Digite seu nome:
-Ola filipo!! 
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25610 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
--- Processo de nome: processo3 Finalizado com sucesso! 
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25602 
-|| Processo de nome: processo2 e pid: 25601 
-|| Processo de nome: processo3 e pid: 25610 
+|| Processo de nome: processo1 e pid: 29172 
+|| Processo de nome: processo2 e pid: 29170 
+|| Processo de nome: processo3 e pid: 29177 
 || Todos os processos foram finalizados
 
 
-
- Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25541 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25541 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25541 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25541 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25541 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25541 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25541 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25541 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25541 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25541 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-Digite seu nome:
-Ola filipo!! 
-<< Interrompendo processo de nome: processo3 e prioridade
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processos prontos para execucao:
-|| Processo de nome: processo3 e pid: 25541 
-
-|| Processos em espera por IO: 
-
->> Executando processo de nome: processo3 e prioridade 7 
-
-<< Interrompendo processo de nome: processo3 e prioridade
-
--- Processo de nome: processo3 Finalizado com sucesso! 
-
-|| Processos finalizados:
-|| Processo de nome: processo1 e pid: 25540 
-|| Processo de nome: processo2 e pid: 25538 
-|| Processo de nome: processo3 e pid: 25541 
-|| Todos os processos foram finalizados
-
-
+|| Nenhum processo 
 

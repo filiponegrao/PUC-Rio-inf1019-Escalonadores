@@ -1,0 +1,3 @@
+exec processo1
+exec processo2
+exec processo3

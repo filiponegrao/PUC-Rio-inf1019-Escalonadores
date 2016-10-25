@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 
     debugProcessVector();
 
-    redirectOutput(dispatcherType);
+    // redirectOutput(dispatcherType);
 
     switch(dispatcherType)
     {
@@ -278,7 +278,7 @@ void executePriority()
 {
 	int i = 0;
 
-	Process * proc ;
+	Process * proc;
 
 //	Executa at'e que todos os processos tenham terminado
 	while(doneProcesses < nProcesses)
@@ -288,7 +288,6 @@ void executePriority()
 		observeWaitingProcesses();
 
 		//Pega o proximo processo da lista por prioridade
-
 		proc = pickProcessByPriority(proc);
 
 		//	Verifica se o processo ja foi inicializado
@@ -343,7 +342,7 @@ void executePriority()
 				sleep(TIMESLICE);
 
 				//	Interrompe a execucao do programa.
-				printf("<< Interrompendo processo de nome: %s e prioridade %d\n\n", proc->name, proc->param);
+				printf("<< Interrompendo processo de nome: %s e prioridade\n\n", proc->name, proc->param);
 				kill(proc->pid, SIGSTOP);
 
 				//	Reduz a prioridade do processo apos
@@ -372,8 +371,6 @@ void executePriority()
 		//Incrementa o contador
 		i++;
 
-		changePriorities(proc->pid);
-
         debugDoneProcesses();
         debugReadyProcesses();
         debugWaitingProcesses();
@@ -381,33 +378,13 @@ void executePriority()
 }
 
 
-void changePriorities(int currentpid)
-{
-	for (int i = 0; i < nProcesses; ++i)
-	{
-		if (processes[i]->pid != currentpid && processes[i]->status != TERMINATED)
-		{
-			if(processes[i]->param > 1)
-			{
-				processes[i]->param -= 1;
-			}
-		}
-		else if(processes[i]->pid == currentpid && processes[i]->status != TERMINATED)
-		{
-			if(processes[i]->param < 7)
-			{
-				processes[i]->param += 1;
-			}
-		}
-	}
-}
-
 /***********************************/
 /**** Escalonador por Prioridade ***/
 /***********************************/
 Process* pickProcessByPriority(Process* lastProcess)
 {
 	int i;
+
 
 	//	Inicializa com o primeiro processo
 	Process* temp = processes[0];
@@ -428,24 +405,24 @@ Process* pickProcessByPriority(Process* lastProcess)
 		//	provavel a ser retornado).
 		if(processes[i]->param <= temp->param)
 		{
-
+			printf("%s\n", lastProcess->name);
 			//	Verifica se o ultimo processo 'e' nulo
 			//	ou o processo temporario (mais provavel
 			//	a ser executado) foi o ultimo a ser executado.
 			//	Caso for, troca para o processo em questao.
-			if(!lastProcess)
+			if(lastProcess == NULL)
 			{
-				if(strcmp(temp->name, lastProcess->name) == 0)
-				{
-					temp = processes[i];
-				}
+				temp = processes[i];
 			}
-			else
+			else if(strcmp(temp->name, lastProcess->name) == 0)
 			{
 				temp = processes[i];
 			}
 		}
 	}
+
+		printf("passa \n");
+
 
 	return temp;
 }
@@ -480,7 +457,6 @@ void observeWaitingProcesses()
 			removeProcessWaiting(waitingMemory[i]);
 			waitingMemory[i] = 0;
 		}
-
 	}
 }
 
@@ -547,10 +523,10 @@ void debugReadyProcesses()
     int i;
     if(doneProcesses != nProcesses)
     {
-        printf("\n|| Processos prontos para execucao:\n");
+        printf("|| Processos prontos para execucao:\n");
         for(i=0; i<nProcesses; i++)
         {
-            if(processes[i]->status == READY && processes[i]->pid != 0)
+            if(processes[i]->status != TERMINATED && processes[i]->status != WAITING && processes[i]->pid != 0)
             {
                 printf("|| Processo de nome: %s e pid: %d \n", processes[i]->name, processes[i]->pid);
             }
@@ -566,26 +542,16 @@ void debugReadyProcesses()
 void debugWaitingProcesses()
 {
     int i;
-
-	int waiting = 0;
-
     if(doneProcesses != nProcesses)
     {
         printf("|| Processos em espera por IO: \n");
-
         for(i=0; i<nProcesses; i++)
         {
             if(processes[i]->status == WAITING && processes[i]->pid != 0)
             {
-            	waiting ++;
                 printf("|| Processo de nome: %s e pid: %d \n", processes[i]->name, processes[i]->pid);
             }
         }
-    }
-
-    if(waiting == 0)
-    {
-    	printf("|| Nenhum processo \n");
     }
    
     printf("\n");

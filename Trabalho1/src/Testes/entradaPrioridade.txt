@@ -1,0 +1,3 @@
+exec processo1 prioridade= 2
+exec processo2 prioridade= 1
+exec processo3 prioridade= 7
