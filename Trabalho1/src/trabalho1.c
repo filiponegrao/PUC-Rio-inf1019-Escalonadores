@@ -8,8 +8,7 @@ struct process
  	int 	pid;	/* Identificacao do processo*/
  	char *	name;	/* Nome do processo */
  	int		param;	/* Parametro generico. */
- 	int		done;	/* Representa um boolean */
-
+ 	int		status;	/* Representa um boolean */
 };
 
 /***********************************/
@@ -25,10 +24,15 @@ int nProcesses;
 /* Numero de processos finalizados*/
 int doneProcesses = 0;
 
+/** Ponteiro para funcao de handler
+de sinais */
+void (*signalPointer)(int);
+
+int * waitingMemory;
+
 /***********************************/
 /** Fim das variaveis de controle **/
 /***********************************/
-
 
 int main(int argc, char* argv[])
 {
@@ -114,7 +118,7 @@ void createProcessVector(int dispatcherType, char* inputFile)
         currentProcess->name = (char*) malloc(sizeof(char) * strlen(program));
         strcpy(currentProcess->name, program);
         currentProcess->param = priorityValue;
-        currentProcess->done = 0;
+        currentProcess->status = READY;
 
         //Aloca mais um espaco no array
         processes = (Process **) realloc(processes, sizeof(Process *)*(i+1));
@@ -204,7 +208,7 @@ void executeRoundRobin()
 			//	Verifica se o processo em questao
 			//	ja teve sua execucao finalizada.
 			//	Se ainda nao terminou:
-			if(proc->done == 0)
+			if(proc->status == READY)
 			{
 				int status;
 
@@ -226,12 +230,12 @@ void executeRoundRobin()
 
 				//Verifica se o processo atual, ja teve sua
 				//execucao finalizada.
-				if(wpid && !(proc->done) && WIFEXITED(status) && (WEXITSTATUS(status) == 0))
+				if(wpid && (proc->status != TERMINATED) && WIFEXITED(status) && (WEXITSTATUS(status) == 0))
 				{
 					printf("-- Processo de nome: %s e pid: %d finalizado com sucesso! \n\n", proc->name, proc->pid);
 
 					//Salva a informacao de que o processo ja terminou.
-					proc->done = 1;
+					proc->status = TERMINATED;
 
 					//Elimina o processo
 					kill(proc->pid, SIGKILL);
@@ -299,7 +303,7 @@ void executePriority()
 		{
 			//	Verifica se o processo ja terminou.
 			//	Caso nao tenha ter terminado ainda:
-			if(proc->done == 0)
+			if(proc->status == READY)
 			{
 				int status;
 
@@ -328,10 +332,10 @@ void executePriority()
 
 				//Verifica se o processo atual, ja teve sua
 				//execucao finalizada.
-				if(wpid && !(proc->done) && WIFEXITED(status) && (WEXITSTATUS(status) == 0))
+				if(wpid && (proc->status != TERMINATED) && WIFEXITED(status) && (WEXITSTATUS(status) == 0))
 				{
 					//Salva a informacao de que o processo ja terminou.
-					proc->done = 1;
+					proc->status = TERMINATED;
 
 					//	Elimina o processo
 					printf("-- Processo de nome: %s e pid: %d Finalizado com sucesso! \n\n", proc->name, proc->pid);
@@ -364,7 +368,7 @@ Process* pickProcessByPriority(Process* lastProcess)
 	{
 		//	Se o processo em questao ja esta finalizado
 		//	troca o processo.
-		if(temp->done)
+		if(temp->status == TERMINATED || temp->satus == WAITING)
 		{
 			temp = processes[i];
 		}
@@ -389,6 +393,54 @@ Process* pickProcessByPriority(Process* lastProcess)
 }
 
 
+void initWaitingMemory()
+{
+	int segmento;
+	int id = 6666;
+
+	segmento = shmget(id, sizeof(int) * 10, IPC_CREAT | 0666);
+
+	waitingMemory = shmat(segmento, NULL, 0);
+
+	for (int i = 0; i < 10; ++i)
+	{
+		waitingMemory[i] = 0;
+	}
+}
+
+void observeWaitingProcesses()
+{
+	for (int i = 0; i < 10; ++i)
+	{
+		if (waitingMemory[i] != 0)
+		{
+			setProcessWaiting(waitingMemory[i]);
+		}
+	}
+}
+
+void setProcessWaiting(int pid)
+{
+	for (int i = 0; i < nProcesses; ++i)
+	{
+		if (processes[i]->pid == pid)
+		{
+			process[i]->status = WAITING;
+		}
+	}
+}
+
+void removeProcessWaiting(int pid)
+{
+	for (int i = 0; i < nProcesses; ++i)
+	{
+		if (processes[i]->pid == pid)
+		{
+			process[i]->status = READY;
+		}
+	}
+}
+
 void debugProcessVector()
 {
     int i;
@@ -397,8 +449,8 @@ void debugProcessVector()
 
     for(i=0; i<nProcesses; i++)
     {
-        printf("\nProcesso %d: pid - %d, name - %s, param - %d, done - %d\n", i+1,
-        processes[i]->pid, processes[i]->name, processes[i]->param, processes[i]->done);
+        printf("\nProcesso %d: pid - %d, name - %s, param - %d", i+1,
+        processes[i]->pid, processes[i]->name, processes[i]->param);
     }
 }
 
@@ -410,7 +462,7 @@ void debugDoneProcesses()
         printf("|| Processos finalizados:\n");
         for(i=0; i<nProcesses; i++)
         {
-            if(processes[i]->done == 1)
+            if(processes[i]->status == TERMINATED)
             {
                 printf("|| Processo de nome: %s e pid: %d \n", processes[i]->name, processes[i]->pid);
             }
@@ -430,7 +482,7 @@ void debugReadyProcesses()
         printf("|| Processos prontos para execucao:\n");
         for(i=0; i<nProcesses; i++)
         {
-            if(processes[i]->done == 0)
+            if(processes[i]->status != TERMINATED && process[i]->status != WAITING)
             {
                 printf("|| Processo de nome: %s e pid: %d \n", processes[i]->name, processes[i]->pid);
             }

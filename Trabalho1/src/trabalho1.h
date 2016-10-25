@@ -15,6 +15,10 @@
 #define PRIORITY_DISPATCHER 1
 #define ROUND_ROBIN_DISPATCHER 2
 
+#define READY 0
+#define WAITING 1
+#define TERMINATED 2
+
 typedef struct process Process;
 
 /* Funcoes auxiliares */
@@ -28,3 +32,10 @@ void debugReadyProcesses();
 /* Dispatchers */
 void executeRoundRobin();
 void executePriority();
+
+/* */
+void initWaitingMemory()
+void observeWaitingProcesses()
+void setProcessWaiting(int pid)
+void removeProcessWaiting(int pid)
+
