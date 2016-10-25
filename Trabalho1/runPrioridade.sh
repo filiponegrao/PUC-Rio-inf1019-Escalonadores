@@ -1,3 +1,3 @@
 bash build.sh
-echo "Executando Prioridaede"
+echo "Executando Prioridade"
 ./trab1 1 entradaPrioridade.txt

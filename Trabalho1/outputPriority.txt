@@ -1,0 +1,353 @@
+Output Redirecionado com sucesso para outputPriority.txt
+>> Executando processo de nome: processo2 , pid: 0
+
+<< Interrompendo processo de nome: processo2 e pid: 25357 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo1 , pid: 0
+
+<< Interrompendo processo de nome: processo1 e pid: 25358 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo2 e pid: 25357
+
+<< Interrompendo processo de nome: processo2 e pid: 25357 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo1 e pid: 25358
+
+<< Interrompendo processo de nome: processo1 e pid: 25358 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo2 e pid: 25357
+
+<< Interrompendo processo de nome: processo2 e pid: 25357 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo1 e pid: 25358
+
+<< Interrompendo processo de nome: processo1 e pid: 25358 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo2 e pid: 25357
+
+<< Interrompendo processo de nome: processo2 e pid: 25357 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo1 e pid: 25358
+
+<< Interrompendo processo de nome: processo1 e pid: 25358 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo2 e pid: 25357
+
+<< Interrompendo processo de nome: processo2 e pid: 25357 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo1 e pid: 25358
+
+<< Interrompendo processo de nome: processo1 e pid: 25358 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo2 e pid: 25357
+
+<< Interrompendo processo de nome: processo2 e pid: 25357 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo1 e pid: 25358
+
+<< Interrompendo processo de nome: processo1 e pid: 25358 por prioridade
+
+|| Ainda nao existem processos finalizados
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+
+>> Executando processo de nome: processo2 e pid: 25357
+
+<< Interrompendo processo de nome: processo2 e pid: 25357 por prioridade
+
+-- Processo de nome: processo2 e pid: 25357 Finalizado com sucesso! 
+
+|| Processos finalizados:
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+
+>> Executando processo de nome: processo1 e pid: 25358
+
+<< Interrompendo processo de nome: processo1 e pid: 25358 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+
+>> Executando processo de nome: processo3 , pid: 0
+
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo1 e pid: 25358
+
+<< Interrompendo processo de nome: processo1 e pid: 25358 por prioridade
+
+-- Processo de nome: processo1 e pid: 25358 Finalizado com sucesso! 
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+0 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+1 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+2 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+3 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+4 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+5 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+6 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+7 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+8 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+9 - Hello world!
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processos prontos para execucao:
+|| Processo de nome: processo3 e pid: 25359 
+
+>> Executando processo de nome: processo3 e pid: 25359
+
+<< Interrompendo processo de nome: processo3 e pid: 25359 por prioridade
+
+-- Processo de nome: processo3 e pid: 25359 Finalizado com sucesso! 
+
+|| Processos finalizados:
+|| Processo de nome: processo1 e pid: 25358 
+|| Processo de nome: processo2 e pid: 25357 
+|| Processo de nome: processo3 e pid: 25359 
+|| Todos os processos foram finalizados
+
+

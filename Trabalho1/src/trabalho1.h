@@ -24,7 +24,7 @@ typedef struct process Process;
 /* Funcoes auxiliares */
 void createProcessVector(int dispatcherType, char* inputFile);
 Process* pickProcessByPriority(Process* lastProcess);
-void redirectOutput();
+void redirectOutput(int type);
 void debugProcessVector();
 void debugDoneProcesses();
 void debugReadyProcesses();
