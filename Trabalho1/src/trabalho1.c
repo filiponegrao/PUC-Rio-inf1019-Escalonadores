@@ -26,8 +26,6 @@ int doneProcesses = 0;
 
 /** Ponteiro para funcao de handler
 de sinais */
-void (*signalPointer)(int);
-
 int * waitingMemory;
 
 /***********************************/
@@ -56,7 +54,9 @@ int main(int argc, char* argv[])
 
 
 	createProcessVector(dispatcherType, argv[2]);
+
     debugProcessVector();
+
     redirectOutput();
 
     switch(dispatcherType)
@@ -396,7 +396,7 @@ Process* pickProcessByPriority(Process* lastProcess)
 void initWaitingMemory()
 {
 	int segmento;
-	int id = 6666;
+	int id = 8752;
 
 	segmento = shmget(id, sizeof(int) * 10, IPC_CREAT | 0666);
 
@@ -449,8 +449,8 @@ void debugProcessVector()
 
     for(i=0; i<nProcesses; i++)
     {
-        printf("\nProcesso %d: pid - %d, name - %s, param - %d", i+1,
-        processes[i]->pid, processes[i]->name, processes[i]->param);
+        printf("\nProcesso %d: pid - %d, name - %s, param - %d\n", i+1,
+    	processes[i]->pid, processes[i]->name, processes[i]->param);
     }
 }
 
