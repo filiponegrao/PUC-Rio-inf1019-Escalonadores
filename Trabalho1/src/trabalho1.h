@@ -34,8 +34,8 @@ void executeRoundRobin();
 void executePriority();
 
 /* */
-void initWaitingMemory()
-void observeWaitingProcesses()
-void setProcessWaiting(int pid)
-void removeProcessWaiting(int pid)
+void initWaitingMemory();
+void observeWaitingProcesses();
+void setProcessWaiting(int pid);
+void removeProcessWaiting(int pid);
 

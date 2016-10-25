@@ -368,7 +368,7 @@ Process* pickProcessByPriority(Process* lastProcess)
 	{
 		//	Se o processo em questao ja esta finalizado
 		//	troca o processo.
-		if(temp->status == TERMINATED || temp->satus == WAITING)
+		if(temp->status == TERMINATED || temp->status == WAITING)
 		{
 			temp = processes[i];
 		}
@@ -425,7 +425,7 @@ void setProcessWaiting(int pid)
 	{
 		if (processes[i]->pid == pid)
 		{
-			process[i]->status = WAITING;
+			processes[i]->status = WAITING;
 		}
 	}
 }
@@ -436,7 +436,7 @@ void removeProcessWaiting(int pid)
 	{
 		if (processes[i]->pid == pid)
 		{
-			process[i]->status = READY;
+			processes[i]->status = READY;
 		}
 	}
 }
@@ -482,7 +482,7 @@ void debugReadyProcesses()
         printf("|| Processos prontos para execucao:\n");
         for(i=0; i<nProcesses; i++)
         {
-            if(processes[i]->status != TERMINATED && process[i]->status != WAITING && processes[i]->pid != 0)
+            if(processes[i]->status != TERMINATED && processes[i]->status != WAITING && processes[i]->pid != 0)
             {
                 printf("|| Processo de nome: %s e pid: %d \n", processes[i]->name, processes[i]->pid);
             }
