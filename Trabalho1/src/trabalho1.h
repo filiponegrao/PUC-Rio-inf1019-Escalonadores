@@ -28,6 +28,7 @@ void redirectOutput(int type);
 void debugProcessVector();
 void debugDoneProcesses();
 void debugReadyProcesses();
+void debugWaitingProcesses();
 
 /* Dispatchers */
 void executeRoundRobin();

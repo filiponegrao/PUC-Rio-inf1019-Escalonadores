@@ -19,7 +19,7 @@ struct process
 Process ** processes;
 
 /* Numero de processos */
-int nProcesses;
+int nProcesses = 0;
 
 /* Numero de processos finalizados*/
 int doneProcesses = 0;
@@ -52,12 +52,13 @@ int main(int argc, char* argv[])
     	return -1;
     }
 
+    initWaitingMemory();
 
 	createProcessVector(dispatcherType, argv[2]);
 
     debugProcessVector();
 
-    redirectOutput(dispatcherType);
+    // redirectOutput(dispatcherType);
 
     switch(dispatcherType)
     {
@@ -178,6 +179,9 @@ void executeRoundRobin()
 	//	Executa ate que todos os processos tenham terminado
 	while(doneProcesses < nProcesses)
 	{
+		//Verifica quais processoes estao em espera por IO:
+		observeWaitingProcesses();
+
 		//	Como o i 'e incrementado ate que todos os
 		//	processos tenham sido executados por completo,
 		//	ele pode assumir um valor que tende a infinito.
@@ -220,7 +224,7 @@ void executeRoundRobin()
 			//	Verifica se o processo em questao
 			//	ja teve sua execucao finalizada.
 			//	Se ainda nao terminou:
-			if(proc->status == READY)
+			if(proc->status != TERMINATED)
 			{
 				int status;
 
@@ -260,8 +264,10 @@ void executeRoundRobin()
 		//Incrementa o controlador de processos
 		//Proximos processos
 		i++;
+
         debugDoneProcesses();
         debugReadyProcesses();
+        debugWaitingProcesses();
 	}
 }
 
@@ -277,6 +283,9 @@ void executePriority()
 //	Executa at'e que todos os processos tenham terminado
 	while(doneProcesses < nProcesses)
 	{
+		//Verifica quais processoes estao em espera por IO:
+		observeWaitingProcesses();
+
 		//Pega o proximo processo da lista por prioridade
 		proc = pickProcessByPriority(proc);
 
@@ -315,7 +324,7 @@ void executePriority()
 		{
 			//	Verifica se o processo ja terminou.
 			//	Caso nao tenha ter terminado ainda:
-			if(proc->status == READY)
+			if(proc->status != TERMINATED)
 			{
 				int status;
 
@@ -360,8 +369,10 @@ void executePriority()
 		}
 		//Incrementa o contador
 		i++;
+
         debugDoneProcesses();
         debugReadyProcesses();
+        debugWaitingProcesses();
 	}
 }
 
@@ -412,7 +423,7 @@ void initWaitingMemory()
 
 	segmento = shmget(id, sizeof(int) * 10, IPC_CREAT | 0666);
 
-	waitingMemory = shmat(segmento, NULL, 0);
+	waitingMemory = (int *) shmat(segmento, NULL, 0);
 
 	for (int i = 0; i < 10; ++i)
 	{
@@ -424,9 +435,13 @@ void observeWaitingProcesses()
 {
 	for (int i = 0; i < 10; ++i)
 	{
-		if (waitingMemory[i] != 0)
+		if (waitingMemory[i] > 0)
 		{
 			setProcessWaiting(waitingMemory[i]);
+		}
+		else if(waitingMemory[i] < 0)
+		{
+			removeProcessWaiting(waitingMemory[i]);
 		}
 	}
 }
@@ -437,6 +452,7 @@ void setProcessWaiting(int pid)
 	{
 		if (processes[i]->pid == pid)
 		{
+			// kill(processes[i]->pid, SIGSTOP);
 			processes[i]->status = WAITING;
 		}
 	}
@@ -504,5 +520,23 @@ void debugReadyProcesses()
     {
         printf("|| Todos os processos foram finalizados\n\n");
     }
+    printf("\n");
+}
+
+void debugWaitingProcesses()
+{
+    int i;
+    if(doneProcesses != nProcesses)
+    {
+        printf("|| Processos em espera por IO: \n");
+        for(i=0; i<nProcesses; i++)
+        {
+            if(processes[i]->status == WAITING && processes[i]->pid != 0)
+            {
+                printf("|| Processo de nome: %s e pid: %d \n", processes[i]->name, processes[i]->pid);
+            }
+        }
+    }
+   
     printf("\n");
 }

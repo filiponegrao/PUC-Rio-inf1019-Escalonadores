@@ -1,14 +1,44 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <sys/shm.h>
+#include <sys/stat.h>
 
 int main (void)
 {
     int i;
-    for(i=0;i<10;i++)
+    int segmento;
+    int * waitingslots;
+    char nome [100];
+    
+    printf("Digite seu nome:\n");
+
+	segmento = shmget(8752, sizeof(int) * 10, IPC_CREAT | 0666);
+
+	waitingslots = (int *) shmat(segmento, NULL, 0);
+
+	for (int i = 0; i < 10; ++i)
 	{
-            sleep(2);
-            printf("%d - Hello world!\n", i);
-            fflush(stdout);
-    };
+		if(waitingslots[i] == 0)
+		{
+			waitingslots[i] = getpid();
+			break;
+		}
+	}
+
+	scanf("%s", nome);
+
+	waitingslots = (int *) shmat(segmento, NULL, 0);
+
+	for (int i = 0; i < 10; ++i)
+	{
+		if(waitingslots[i] == 0)
+		{
+			waitingslots[i] = -getpid();
+			break;
+		}
+	}
+
+	printf("Ola %s!! \n", nome);
+
     return 0;
 }
